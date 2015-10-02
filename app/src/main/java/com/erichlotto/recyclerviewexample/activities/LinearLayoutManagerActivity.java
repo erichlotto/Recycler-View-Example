@@ -22,7 +22,7 @@ public class LinearLayoutManagerActivity extends Activity {
         //If you are sure that the size of the RecyclerView won't be changing, you can add the following to improve performance:
         rv.setHasFixedSize(true);
 
-        LinearLayoutManager llm = new LinearLayoutManager(getApplicationContext());
+        LinearLayoutManager llm = new LinearLayoutManager(this);
         rv.setLayoutManager(llm);
 
         RVAdapter adapter = new RVAdapter(Person.generatePersonsList());

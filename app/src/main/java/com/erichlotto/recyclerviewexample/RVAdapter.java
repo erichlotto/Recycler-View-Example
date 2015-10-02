@@ -41,6 +41,7 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.PersonViewHolder>{
     public void onAttachedToRecyclerView(RecyclerView recyclerView) {
         super.onAttachedToRecyclerView(recyclerView);
     }
+
     public static class PersonViewHolder extends RecyclerView.ViewHolder {
         CardView cv;
         TextView personName;
