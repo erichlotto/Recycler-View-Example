@@ -14,7 +14,7 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.PersonViewHolder>{
 
     List<Person> persons;
 
-    RVAdapter(List<Person> persons){
+    public RVAdapter(List<Person> persons){
         this.persons = persons;
     }
 
